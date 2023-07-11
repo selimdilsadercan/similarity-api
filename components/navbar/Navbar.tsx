@@ -23,6 +23,10 @@ const Navbar = () => {
             Documentation
           </Link>
 
+          <Link href="/about" className={buttonVariants({ variant: "ghost" })}>
+            About
+          </Link>
+
           <SignedIn>
             <Link
               className={buttonVariants({ variant: "ghost" })}

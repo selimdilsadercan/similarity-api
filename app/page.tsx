@@ -1,5 +1,6 @@
 import LargeHeading from "@/components/ui/large-heading";
 import Paragraph from "@/components/ui/paragraph";
+import { auth } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
 
